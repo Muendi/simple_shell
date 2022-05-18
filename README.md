@@ -85,16 +85,12 @@ $ ```
 
 File|Description
 ---|---
-[shell.h](./shell.h)|header file
+[main.h](./main.h)|header file
 [main.c](./main.c)|entry point for shell
-[[builtins.c](./builtins.c)|built-in functions
-[helpers.c](./helpers.c)|helper functions
-[extraneous.c](./extraneous.c)|more helper functions
+[built.c](./built.c)|built-in functions
+[strings.c](./strings.c)|inbuilt string functions
+[strings_2.c](./strings_2.c)| additional string functiona
 [_getenv.c](./_getenv.c)|gets inputted env
-[search_cwd.c](./search_cwd.c)|gets current working dir
-[find_path.c](./find_path.c)|finds PATH
-[bridge.c](./bridge.c)|checks if builtin or not
-[execute.c](./execute.c)|executes builtin or binary
 [man_1_simple_shell](./man_1_simple_shell)|man page
 [shell.c](./shell.c)|executes the shell]
 
